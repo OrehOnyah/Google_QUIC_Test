@@ -1,4 +1,4 @@
-package niotest;
+package test;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.DatagramChannel;
 import java.nio.charset.Charset;
 
-public class UDPClient {
+public class NIOUDPClient {
 	public static void main(String[] args) {
 		ByteBuffer sendBuffer = Charset.forName("UTF-8").encode("한글");
 		

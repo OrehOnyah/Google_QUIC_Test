@@ -1,4 +1,4 @@
-package niotest;
+package test;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -10,7 +10,7 @@ import java.nio.channels.Selector;
 import java.util.Iterator;
 import java.util.Set;
 
-public class UDPServer {
+public class NIOUDPServer {
 	public static void main(String[] args) {
 		//ByteBuffer를 선언. allocateDirect를 통하여 다이렉트 버퍼로 선언함.
 		ByteBuffer directBuffer = ByteBuffer.allocateDirect(1024).order(ByteOrder.nativeOrder());
