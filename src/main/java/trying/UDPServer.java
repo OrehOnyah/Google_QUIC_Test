@@ -1,4 +1,4 @@
-package test;
+package trying;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -21,10 +21,9 @@ public class UDPServer {
 	 * start server
 	 * @param port
 	 */
-	public void serve(int port) {
+	public void serve(final int port) {
 		tList.addFirst(new Thread(new Runnable() {
 			public int serverport = port;
-			@Override
 			public void run() {
 				try {
 					DatagramSocket dsock = new DatagramSocket(this.serverport);
