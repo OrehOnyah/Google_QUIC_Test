@@ -2,7 +2,11 @@ package packet;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * https://tools.ietf.org/pdf/draft-ietf-quic-transport-19.pdf
+ * 
+ *
+ */
 
 public abstract class QUICPacket {
 	private ArrayList<Field>fieldList;
