@@ -1,5 +1,7 @@
 package packet;
 
+import packet.type.InitialPacket;
+
 public enum PacketType {
 	VERSION_NEGOTIATION_PACKET,
 	PUBLIC_RESET_PACKET,
@@ -12,6 +14,6 @@ public enum PacketType {
 	 * @return 임시로 추가된 퀵 패킷
 	 */
 	public QUICPacket getPacket() {
-		return new QUICPacket();
+		return new InitialPacket();
 	}
 }

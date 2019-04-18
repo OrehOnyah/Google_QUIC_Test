@@ -1,4 +1,4 @@
-package packet;
+package packet.exception;
 
 public enum QUICErrorCode {
 	QUIC_NO_ERROR,// There was no error. This is not valid for RST_STREAM frames or CONNECTION_CLOSE frames
