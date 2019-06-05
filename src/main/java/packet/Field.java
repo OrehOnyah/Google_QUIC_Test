@@ -8,5 +8,8 @@ public class Field {
 	 * 비트 단위로 설정함.
 	 */
 	private int length;
+	protected void setLength(int length) {
+		this.length = length;
+	}
 	
 }
