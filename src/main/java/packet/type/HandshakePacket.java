@@ -25,5 +25,4 @@ public class HandshakePacket extends LongHeaderPacket {
 		// TODO Auto-generated method stub
 		
 	}
-
 }
