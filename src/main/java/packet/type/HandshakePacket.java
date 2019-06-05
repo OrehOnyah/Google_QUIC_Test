@@ -17,7 +17,7 @@ package packet.type;
  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
  | Payload (*) ...
  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
- */
+ */ 
 public class HandshakePacket extends LongHeaderPacket {
 
 	@Override

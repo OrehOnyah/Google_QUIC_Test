@@ -2,4 +2,5 @@
 ##################
 bin/
 target/
+target/*
 *.class
